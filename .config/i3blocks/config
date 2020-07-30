@@ -1,0 +1,10 @@
+# Properties not preceded by a section are considered global
+# and merged into every section declarations.
+
+[volume]
+command=/home/sil/.config/i3blocks/blocklets/volume
+interval=once
+
+[day-hour]
+command=/home/sil/.config/i3blocks/blocklets/calendar
+interval=60
