@@ -9,7 +9,7 @@
 export PATH="$PATH:/home/sil/.local/bin"
 
 # Aliases
-alias config='/usr/bin/git --git-dir=/home/sil/.dotfiles/ --work-tree=/home/sil'
+alias dotfiles='/usr/bin/git --git-dir=/home/sil/.dotfiles/ --work-tree=/home/sil'
 
 # Colors
 alias ls='ls --color=auto'
