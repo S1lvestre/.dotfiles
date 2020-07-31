@@ -21,7 +21,7 @@ set textwidth=80
 set colorcolumn=81
 :hi ColorColumn ctermbg=15
 
-"jursor
+"cursor
 set scrolloff=7
 
 "tabs-to-spaces
@@ -40,3 +40,8 @@ set tabstop=4
 :hi Underlined   ctermfg=Black
 :hi Ignore       ctermfg=DarkGrey                   cterm=italic
 :hi Error        ctermfg=Black      ctermbg=Red
+
+"plugins
+call plug#begin()
+Plug 'ap/vim-css-color'
+call plug#end()
